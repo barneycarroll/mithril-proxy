@@ -1,6 +1,6 @@
 {
   "name": "mithril-proxy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Exposes a proxied Mithril API that can plugins can extend by hooking in proxy traps",
   "main": "ssrc/mithril-proxy.es3.js",
   "scripts": {
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/barneycarroll/mithril-proxy/issues"
   },
-  "homepage": "https://github.com/barneycarroll/mithril-proxy#readme"
+  "homepage": "https://github.com/barneycarroll/mithril-proxy#readme",
+  "dependencies": {
+    "proximamente": "0.0.0"
+  },
+  "peerDependencies": {
+    "mithril": "^0.2.0"
+  }
 }
